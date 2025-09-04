@@ -1,4 +1,4 @@
-# Microsoft Money mnyob99.dll Binary Patcher
+# Money mnyob99.dll Binary Patcher
 
 This script applies Raymond Chen's patch to fix crashes in Money Plus Sunset (mnyob99.dll) during import of account transactions or when changing a payee of a downloaded transaction. If you're like me, and you can read python, you can convince yourself what this script does and feel a lot better than downloading some sketchy binary from the internet. The script is provided as-is and without warranty, use at your own risk.
 
@@ -22,11 +22,6 @@ This script applies Raymond Chen's patch to fix crashes in Money Plus Sunset (mn
    python patch_money_dll.py <path_to_mnyob99.dll>
    ```
    If no path is provided, the script will search common install locations and the current directory.
-
-### Example
-```powershell
-python patch_money_dll.py "C:\Program Files (x86)\Microsoft Money Plus\MNYCoreFiles\mnyob99.dll"
-```
 
 ## What It Does
 - Checks if the DLL matches expected byte patterns
